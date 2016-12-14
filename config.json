@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "TJ Schaaf"
+  },
+  "text": {
+    "more": "This graph analyzes the role Robert Cecil had in connecting all the actors we have looked at so far whilst the Gunpowder Plot is developing and being put into action. Gold nodes are politicians and royalty, green nodes are the Catholic relatives of Francis Tresham, red nodes are Jesuit priests, and blue nodes are the thirteen conspirators in the Plot. The size of the node relates to the eigenvector centrality value, meaning the larger the node is, the more important it is. As the figure shows us, Robert Cecil has the second highest eigenvector centrality, second only to King James I. As this is in 1605, Queen Elizabeth I has since died, so her importance has diminished. Robert Cecil is the piece that connects all the dots between the different concentrations in the graph together, so it is easy to understand why the public viewed him as an evil actor working behind the scenes. ",
+    "intro": "This is a graph displaying all the major players in the Gunpowder Plot and their interconnectedness with relation to Robert Cecil.",
+    "title": "Robert Cecil Eigenvector Centrality Graph"
+  },
+  "legend": {
+    "edgeLabel": "",
+    "colorLabel": "",
+    "nodeLabel": ""
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "color",
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
